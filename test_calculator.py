@@ -1,7 +1,11 @@
-import calculator.py
 import unittest
+import calculator
 
 
+
+#unsure why this code does not recognize the methods in calculator.  It imports it without eror yet fails on the last
+#method call.  I have never imported a file with python im my life and this is my first python based class.  Im going
+#to move onto the second module in the name of time.
 
 class TestCase(unittest.TestCase):
 
